@@ -10,8 +10,6 @@ detailed:
     - group.all_mobile_devices
     - group.cctv
     - group.safety
-    - group.netatmo
-    - group.maps
 
 All Mobile Devices:
   - device_tracker.aileensiphone
@@ -23,14 +21,7 @@ CCTV:
   - switch.cctv_motion
 
 Safety:
-  - sensor.upstairs_battery_level
-  - sensor.upstairs_co_status
-  - sensor.upstairs_smoke_status
+  - sensor.living_room_battery_level
+  - sensor.living_room_co_status
+  - sensor.living_room_smoke_status
 
-Netatmo:
-  - sensor.netatmo_outside_radio
-  - sensor.netatmo_outside_battery
-
-Maps:
-  - camera.graeme
-  - camera.aileen
